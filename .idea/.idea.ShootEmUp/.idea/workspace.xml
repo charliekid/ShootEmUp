@@ -7,16 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RestartLevel.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RestartLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" />
       </list>
     </option>
   </component>
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602465241148</updated>
-      <workItem from="1602465243167" duration="7450000" />
+      <workItem from="1602465243167" duration="12524000" />
     </task>
     <servers />
   </component>
@@ -70,5 +74,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mothership.cs</url>
+          <line>53</line>
+          <properties documentPath="C:\Users\melody\Documents\School\Fall2020\cst326\ShootEmUp\Assets\Scripts\Mothership.cs" initialLine="57">
+            <startOffsets>
+              <option value="1315" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1316" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

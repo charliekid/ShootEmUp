@@ -29,12 +29,34 @@ public class Bullet : MonoBehaviour
       
       if (other.gameObject.tag == "Enemy")
       {
-        Debug.Log(other.gameObject + "Other gameobject");
-        Debug.Log(gameObject + " Gameobject");
+        //Debug.Log(other.gameObject + "Other gameobject");
+        //Debug.Log(gameObject + " Gameobject");
         Destroy(other.gameObject);
         Destroy(gameObject);
-        // Increase player score we want to see what kind of enemy at this point
-        Player.playerScore += 10;
+        // Increase player score we want to see what kind of enemy at this point\
+        
+        // this might be dumb but its the answer for now. we will store the to search the begining
+        String enemyName = other.gameObject.name;
+        char enemyType = enemyName[5];
+        Debug.Log(enemyType);
+        switch (enemyType)
+        {
+          case 'R':
+            Player.playerScore += 30;
+            break;
+          case 'O':
+            Player.playerScore += 20;
+            break;
+          case 'Y':
+            Player.playerScore += 10;
+            break;
+          case 'S':
+            Player.playerScore += 100;
+            break;
+          default:
+            break;
+        }
+        
       }
       else if (other.gameObject.tag == "Base")
       {

@@ -13,7 +13,7 @@ public class Mothership : MonoBehaviour
   
     public Transform shottingOffset;
 
-    // [SerializeField] public Text winText;
+     [SerializeField] public Text winText;
 
     public double fireRate = 0.997;
     
@@ -32,6 +32,7 @@ public class Mothership : MonoBehaviour
     void MoveEnemy()
     {
         enemyHolder.position += Vector3.right * speed;
+        
         foreach (Transform enemy in enemyHolder)
         {
             if (enemy.position.x < -10.5 || enemy.position.x > 10.5)
@@ -49,16 +50,26 @@ public class Mothership : MonoBehaviour
             }
         }
 
+        // increase the speed; 
+        // if (enemyHolder.childCount % 6 == 0)
+        // {
+        //     speed *= 2;
+        //     enemyHolder.position += Vector3.right * speed; 
+        // }
+
         // if (enemyHolder.childCount == 1)
         // {
         //     CancelInvoke();
         //     InvokeRepeating("MoveEnemy", 0.1f, 0.25f);
         // }
-
-        // if (enemyHolder.childCount == 0)
-        // {
-        //     winText.enabled = true;
-        // }
+        
+        
+        // We won the GAME!!!!!
+        if (enemyHolder.childCount == 0)
+        {
+            winText.enabled = true;
+            winText.text = "Winner!";
+        }
     }
     // get the enemy to shoot
     // void FixedUpdate()

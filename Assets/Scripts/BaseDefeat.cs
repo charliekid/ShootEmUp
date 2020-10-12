@@ -19,4 +19,6 @@ public class BaseDefeat : MonoBehaviour
             GameOver.isPlayerDead = true; // sets the player to dead
         }
     }
+
+
 }
