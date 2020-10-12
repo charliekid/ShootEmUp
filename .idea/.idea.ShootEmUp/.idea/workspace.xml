@@ -17,10 +17,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602465241148</updated>
-      <workItem from="1602465243167" duration="12524000" />
+      <workItem from="1602465243167" duration="12903000" />
     </task>
     <servers />
   </component>

@@ -8,13 +8,10 @@ using Random = System.Random;
 public class Player : MonoBehaviour
 {
     public GameObject bullet;
-  
     public Transform shottingOffset;
-  
     public Transform player;
 
     private float amplitude = 1;
-  
     public float velocityPlayer = 0;
   
     public float maxBoundary, minBoundary;
@@ -23,13 +20,11 @@ public class Player : MonoBehaviour
     public static float playerScore = 0;
     [SerializeField] public Text scoreText;
     
+    // High Score stuff
     public Text highScoreText;
     public static float highScore = 0; 
 
-    void Start()
-    {
-        //scoreText = GetComponent<Text>();
-    }
+
     void Update()
     {
         scoreText.text = String.Format("Score : {0:0000}" , playerScore);
