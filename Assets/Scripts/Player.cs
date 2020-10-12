@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -15,10 +16,18 @@ public class Player : MonoBehaviour
   public float velocityPlayer = 0;
   
   public float maxBoundary, minBoundary;
+  
+  // Player score stuff
+  public static float playerScore = 0;
+  [SerializeField] public Text scoreText;
 
-  // Update is called once per frame
+  void Start()
+  {
+    //scoreText = GetComponent<Text>();
+  }
     void Update()
     {
+      scoreText.text = "Score ";
       velocityPlayer = Input.GetAxis("Horizontal");
       
       if (Input.GetKeyDown(KeyCode.Space))

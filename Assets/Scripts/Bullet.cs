@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))] //technique for making sure there isn't a null reference during runtime if you are going to use get component
 public class Bullet : MonoBehaviour
 {
+
   private Rigidbody2D myRigidbody2D;
 
   public float speed = 5;
@@ -21,4 +23,23 @@ public class Bullet : MonoBehaviour
       myRigidbody2D.velocity = Vector2.up * speed; 
       Debug.Log("Wwweeeeee");
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+      
+      if (other.gameObject.tag == "Enemy")
+      {
+        Debug.Log(other.gameObject + "Other gameobject");
+        Debug.Log(gameObject + " Gameobject");
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+        // Increase player score we want to see what kind of enemy at this point
+        Player.playerScore += 10;
+      }
+      else if (other.gameObject.tag == "Base")
+      {
+        Destroy(gameObject);
+      }
+    }
+
 }
