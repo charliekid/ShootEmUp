@@ -15,7 +15,7 @@ public class Mothership : MonoBehaviour
 
      [SerializeField] public Text winText;
 
-    public double fireRate = 0.997;
+    public double fireRate = 9;
     
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,7 @@ public class Mothership : MonoBehaviour
     {
         enemyHolder.position += Vector3.right * speed;
         
+        
         foreach (Transform enemy in enemyHolder)
         {
             if (enemy.position.x < -10.5 || enemy.position.x > 10.5)
@@ -40,6 +41,14 @@ public class Mothership : MonoBehaviour
                 speed = -speed; // changes direction
                 enemyHolder.position += Vector3.down * 0.5f; // moves enemies down
                 return;
+            }
+
+            float rand = UnityEngine.Random.Range(0, 150);
+            //Debug.Log("our random number is " + rand);
+            if (rand == fireRate)
+            {
+                Debug.Log("inside of firing");
+                Instantiate(bullet, enemy.position, enemy.rotation); 
             }
             
 
@@ -69,6 +78,8 @@ public class Mothership : MonoBehaviour
         {
             winText.enabled = true;
             winText.text = "Winner!";
+            
+            // Change over to the new scene for credits
         }
     }
     // get the enemy to shoot

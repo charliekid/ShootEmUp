@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
     private void Fire()
     {
       myRigidbody2D.velocity = Vector2.up * speed; 
-      Debug.Log("Wwweeeeee");
+      //Debug.Log("Wwweeeeee");
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
         // this might be dumb but its the answer for now. we will store the to search the begining
         String enemyName = other.gameObject.name;
         char enemyType = enemyName[5];
-        Debug.Log(enemyType);
+        Debug.Log("Enemy Type" + enemyType);
         switch (enemyType)
         {
           case 'R':
@@ -66,6 +66,12 @@ public class Bullet : MonoBehaviour
       {
         Destroy(gameObject);
       }
+      else if (other.gameObject.tag == "Player")
+      {
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+      }
+      
     }
 
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BaseHealth : MonoBehaviour
 {
-    public static float health = 2;
+    public static float health = 10;
 
     // Update is called once per frame
     void Update()
@@ -16,6 +16,11 @@ public class BaseHealth : MonoBehaviour
     }
     
     private void OnCollisionEnter2D(Collision2D other)
+    {
+        health--; 
+    }
+
+    public void decreaseHealth()
     {
         health--; 
     }
