@@ -42,15 +42,19 @@ public class Bullet : MonoBehaviour
         switch (enemyType)
         {
           case 'R':
+          case 'T': // Tina
             Player.playerScore += 30;
             break;
           case 'O':
+          case 'G':  //Gene
             Player.playerScore += 20;
             break;
           case 'Y':
+          case 'L': // Louise
             Player.playerScore += 10;
             break;
           case 'S':
+          case 'K': // kuchiKopi
             Player.playerScore += 100;
             break;
           default:

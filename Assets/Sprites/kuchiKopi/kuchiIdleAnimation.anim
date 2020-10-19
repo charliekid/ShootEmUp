@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: louiseAnimation
+  m_Name: kuchiIdleAnimation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -7835551743694441984, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
+      value: {fileID: -591244189891890738, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
     - time: 0.083333336
-      value: {fileID: 6726017337836597647, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
+      value: {fileID: -7844845948300338205, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
     - time: 0.16666667
-      value: {fileID: -3126182155517609753, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
+      value: {fileID: 2686902347302263171, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,9 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7835551743694441984, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
-    - {fileID: 6726017337836597647, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
-    - {fileID: -3126182155517609753, guid: 1193951d89b67e0419d5302c4960c640, type: 3}
+    - {fileID: -591244189891890738, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
+    - {fileID: -7844845948300338205, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
+    - {fileID: 2686902347302263171, guid: 94fe5bd07b98e5a44b8f768b0e559b16, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
