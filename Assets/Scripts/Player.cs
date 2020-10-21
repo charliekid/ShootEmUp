@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
 
     private Animator playerAnimator;
     
+    // Audio stuff
+    public AudioSource audioSource;
+    
     // Start functions
     void Start()
     {
@@ -65,7 +68,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            gameObject.GetComponent<Animator>().SetTrigger("Death");
+            player.gameObject.GetComponent<Animator>().SetTrigger("Death");
             Destroy(other.gameObject);
             StartCoroutine(destroyPlayer());
             GameOver.isPlayerDead = true;
@@ -75,7 +78,7 @@ public class Player : MonoBehaviour
     // Waits a moment so that the explosion clip plays
     IEnumerator  destroyPlayer()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(1);
 
         Destroy(gameObject);
     }
