@@ -3,6 +3,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
@@ -24,20 +25,27 @@ public class Player : MonoBehaviour
     
     // High Score stuff
     public Text highScoreText;
-    public static float highScore = 0; 
+    public static float highScore = 0;
 
+    private Animator playerAnimator;
+    
+    // Start functions
+    void Start()
+    {
+        playerAnimator = GetComponent<Animator>(); 
+    }
 
     void Update()
     {
         scoreText.text = String.Format("Score : {0:0000}" , playerScore);
         highScoreText.text = String.Format("High Score : {0:0000}", highScore);
+
         velocityPlayer = Input.GetAxis("Horizontal");
       
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            playerAnimator.SetTrigger("Shoot");
             GameObject shot = Instantiate(bullet, shottingOffset.position, Quaternion.identity);
-            Debug.Log("Bang!");
-
             Destroy(shot, 3f);
         }
       
@@ -52,6 +60,24 @@ public class Player : MonoBehaviour
         }
 
         player.position += Vector3.right * velocityPlayer * amplitude;
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("Death");
+            Destroy(other.gameObject);
+            StartCoroutine(destroyPlayer());
+            GameOver.isPlayerDead = true;
+        } 
+    }
+
+    // Waits a moment so that the explosion clip plays
+    IEnumerator  destroyPlayer()
+    {
+        yield return new WaitForSeconds(.5f);
+
+        Destroy(gameObject);
     }
 }
 

@@ -22,8 +22,6 @@ public class RestartLevel : MonoBehaviour
             Time.timeScale = 1;
 
             SceneManager.LoadScene("GameScene");
-            
-            
         }
     }
 }

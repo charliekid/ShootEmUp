@@ -25,6 +25,7 @@
           <e p="BaseHealth.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="BulletEnemy.cs" t="Include" />
+          <e p="Credits.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="GameOver.cs" t="Include" />
           <e p="Mothership.cs" t="Include" />

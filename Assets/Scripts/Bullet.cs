@@ -10,9 +10,14 @@ public class Bullet : MonoBehaviour
   private Rigidbody2D myRigidbody2D;
 
   public float speed = 5;
+
+  public AudioSource audioSource;
+  public AudioClip explosionClip;
+  
     // Start is called before the first frame update
     void Start()
     {
+      audioSource = GetComponent<AudioSource>();
       myRigidbody2D = GetComponent<Rigidbody2D>();
       Fire();
     }
@@ -29,16 +34,14 @@ public class Bullet : MonoBehaviour
       
       if (other.gameObject.tag == "Enemy")
       {
-        //Debug.Log(other.gameObject + "Other gameobject");
-        //Debug.Log(gameObject + " Gameobject");
-        Destroy(other.gameObject);
+
+        audioSource.PlayOneShot(explosionClip);
+        // Destroys bullet
         Destroy(gameObject);
-        // Increase player score we want to see what kind of enemy at this point\
-        
-        // this might be dumb but its the answer for now. we will store the to search the begining
+
         String enemyName = other.gameObject.name;
         char enemyType = enemyName[5];
-        Debug.Log("Enemy Type" + enemyType);
+        //Debug.Log("Enemy Type" + enemyType);
         switch (enemyType)
         {
           case 'R':
@@ -66,12 +69,7 @@ public class Bullet : MonoBehaviour
       {
         Destroy(gameObject);
       }
-      else if (other.gameObject.tag == "Player")
-      {
-        Destroy(other.gameObject);
-        Destroy(gameObject);
-      }
-      
+
     }
 
 }

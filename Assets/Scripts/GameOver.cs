@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
@@ -22,6 +23,15 @@ public class GameOver : MonoBehaviour
         {
             Time.timeScale = 0; // freezes the game
             gameOver.enabled = true; // displays gameover on the screen and everything stops moving
+            SceneManager.LoadScene("CreditsScene");
+            //loadCredits();
         }
+    }
+
+     IEnumerator loadCredits()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("CreditsScene");
+        Debug.Log("loading CreditScene scene");
     }
 }

@@ -20,17 +20,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c23ef9c7-47ab-42cf-9ab8-cc476d777846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/bobsBurgerBuilding.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/bobsBurgerBuilding.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CreditsScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CreditsScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Credits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Credits.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/enemyExplosion.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/enemyExplosion.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/enemyShot2232.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/enemyShot2232.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/playerHit.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/playerHit.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/playerShot.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/playerShot.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/bobsBurgerBuilding.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/bobsBurgerBuilding.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/PlayerBuger.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/PlayerBuger.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerController.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath1.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath2.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath3.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerDeath3.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot1.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot2.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot3.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShoot3.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShootAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerShootAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneDeath.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneDeath.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneShooting.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneShooting.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneShooting.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDie.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDie.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDie_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseDie_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseShooting_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaDeath.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaDeath.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaShooting.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaShooting.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaShooting.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaShooting.psd.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Bob's Burgers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Bob's Burgers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerNoMovement.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/burgerShooter/burgerNoMovement.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/kuchiKopi/kuchiKopiAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/kuchiKopi/kuchiKopiAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/kuchiKopi/kuchiKopiSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/kuchiKopi/kuchiKopiSpriteSheet_0 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gene/geneSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneSpriteSheet_0 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/louise/louiseSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/louise/louiseSpriteSheet_0 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tina/tinaSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaSpriteSheet_0 1.controller" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,52 +119,57 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RestartLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Practice2DAnimation/Assets/MainMenu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Practice2DAnimation/Assets/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseDefeat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mothership.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Credits.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletEnemy.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ikx9cLEMNM5l74D3HTdj9Zp6g0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35037038" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1592">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1592" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1592">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1592" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -105,7 +186,8 @@
       <updated>1602465241148</updated>
       <workItem from="1602465243167" duration="13722000" />
       <workItem from="1602536801216" duration="295000" />
-      <workItem from="1603062983206" duration="9317000" />
+      <workItem from="1603062983206" duration="16257000" />
+      <workItem from="1603205525765" duration="20446000" />
     </task>
     <servers />
   </component>
@@ -124,33 +206,81 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2168" y="282" width="672" height="678" key="search.everywhere.popup" timestamp="1603070494017">
+    <state width="1381" height="371" key="GridCell.Tab.0.bottom" timestamp="1603241373879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373879" />
+    <state width="1381" height="371" key="GridCell.Tab.0.center" timestamp="1603241373878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373878" />
+    <state width="1381" height="371" key="GridCell.Tab.0.left" timestamp="1603241373877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373877" />
+    <state width="1381" height="371" key="GridCell.Tab.0.right" timestamp="1603241373878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373878" />
+    <state width="1381" height="371" key="GridCell.Tab.1.bottom" timestamp="1603241387320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241387320" />
+    <state width="1381" height="371" key="GridCell.Tab.1.center" timestamp="1603241387320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241387320" />
+    <state width="1381" height="371" key="GridCell.Tab.1.left" timestamp="1603241387320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241387320" />
+    <state width="1381" height="371" key="GridCell.Tab.1.right" timestamp="1603241387320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241387320" />
+    <state width="1381" height="371" key="GridCell.Tab.2.bottom" timestamp="1603241373509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373509" />
+    <state width="1381" height="371" key="GridCell.Tab.2.center" timestamp="1603241373508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373508" />
+    <state width="1381" height="371" key="GridCell.Tab.2.left" timestamp="1603241373508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373508" />
+    <state width="1381" height="371" key="GridCell.Tab.2.right" timestamp="1603241373509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373509" />
+    <state width="1381" height="371" key="GridCell.Tab.3.bottom" timestamp="1603241373510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373510" />
+    <state width="1381" height="371" key="GridCell.Tab.3.center" timestamp="1603241373509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373509" />
+    <state width="1381" height="371" key="GridCell.Tab.3.left" timestamp="1603241373509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373509" />
+    <state width="1381" height="371" key="GridCell.Tab.3.right" timestamp="1603241373509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1381" height="371" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603241373509" />
+    <state x="2168" y="282" width="672" height="678" key="search.everywhere.popup" timestamp="1603316436204">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2168" y="282" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603070494017" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Mothership.cs</url>
-          <line>62</line>
-          <properties documentPath="C:\Users\melody\Documents\School\Fall2020\cst326\ShootEmUp\Assets\Scripts\Mothership.cs" initialLine="57">
-            <startOffsets>
-              <option value="1616" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1617" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="248" y="282" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603211050589" />
+    <state x="2168" y="282" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603316436204" />
   </component>
 </project>

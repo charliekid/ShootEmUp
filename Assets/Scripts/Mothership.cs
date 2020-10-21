@@ -10,8 +10,7 @@ public class Mothership : MonoBehaviour
     public Transform enemyHolder; 
     public GameObject bullet;
     public float speed; 
-  
-    public Transform shottingOffset;
+    
 
      [SerializeField] public Text winText;
 
@@ -20,15 +19,9 @@ public class Mothership : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // winText.enabled = false;
         InvokeRepeating("MoveEnemy", 0.1f, 0.3f);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     void MoveEnemy()
     {
         enemyHolder.position += Vector3.right * speed;
@@ -42,12 +35,13 @@ public class Mothership : MonoBehaviour
                 enemyHolder.position += Vector3.down * 0.5f; // moves enemies down
                 return;
             }
-
-            float rand = UnityEngine.Random.Range(0, 150);
+            //player shoots here
+            float rand = UnityEngine.Random.Range(0, 200);
             //Debug.Log("our random number is " + rand);
             if (rand == fireRate)
             {
-                Debug.Log("inside of firing");
+                //Debug.Log("inside of firing");
+                enemy.GetComponent<Animator>().SetTrigger("Shoot");
                 Instantiate(bullet, enemy.position, enemy.rotation); 
             }
             
@@ -59,20 +53,7 @@ public class Mothership : MonoBehaviour
             }
         }
 
-        // increase the speed; 
-        // if (enemyHolder.childCount % 6 == 0)
-        // {
-        //     speed *= 2;
-        //     enemyHolder.position += Vector3.right * speed; 
-        // }
 
-        // if (enemyHolder.childCount == 1)
-        // {
-        //     CancelInvoke();
-        //     InvokeRepeating("MoveEnemy", 0.1f, 0.25f);
-        // }
-        
-        
         // We won the GAME!!!!!
         if (enemyHolder.childCount == 0)
         {
@@ -82,30 +63,5 @@ public class Mothership : MonoBehaviour
             // Change over to the new scene for credits
         }
     }
-    // get the enemy to shoot
-    // void FixedUpdate()
-    // {
-    //     bullet.transform.position += Vector3.up * -speed;
-    //     if (bullet.transform.position.y <= -10)
-    //     {
-    //         Destroy(bullet.gameObject);
-    //     }
-    // }
-
-    // private void OnCollisionEnter2D(Collider2D other)
-    // {
-    //     if (other.tag == "Player")
-    //     {
-    //         Destroy(other.gameObject);    // destory the player
-    //         Destroy(gameObject);        // destroy bullet
-    //         GameOver.isPlayerDead = true; 
-    //     }
-    //     else if (other.tag == "Base")
-    //     {
-    //         GameObject playerBase = other.gameObject;
-    //         BaseHealth baseHealth = playerBase.GetComponent<BaseHealth>();
-    //         baseHealth.health -= 1;
-    //         Destroy(gameObject);
-    //     }
-    // }
+  
 }
