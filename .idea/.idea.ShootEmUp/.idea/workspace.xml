@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c23ef9c7-47ab-42cf-9ab8-cc476d777846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaDeath.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaDeath.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootEmUp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gene/geneSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/gene/geneSpriteSheet_0 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tina/tinaSpriteSheet_0 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/tina/tinaSpriteSheet_0 1.controller" afterDir="false" />
-    </list>
+    <list default="true" id="c23ef9c7-47ab-42cf-9ab8-cc476d777846" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +99,7 @@
       <workItem from="1602465243167" duration="13722000" />
       <workItem from="1602536801216" duration="295000" />
       <workItem from="1603062983206" duration="16257000" />
-      <workItem from="1603205525765" duration="22201000" />
+      <workItem from="1603205525765" duration="22717000" />
     </task>
     <servers />
   </component>

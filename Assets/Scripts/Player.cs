@@ -31,11 +31,13 @@ public class Player : MonoBehaviour
     
     // Audio stuff
     public AudioSource audioSource;
+    public AudioClip playerShot; 
     
     // Start functions
     void Start()
     {
-        playerAnimator = GetComponent<Animator>(); 
+        playerAnimator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -48,6 +50,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerAnimator.SetTrigger("Shoot");
+            audioSource.PlayOneShot(playerShot);
             GameObject shot = Instantiate(bullet, shottingOffset.position, Quaternion.identity);
             Destroy(shot, 3f);
         }
